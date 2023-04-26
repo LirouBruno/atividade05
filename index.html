@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Milhões</title>
+</head>
+<style>
+    .total{
+        border-style: double;
+        margin: auto;
+        max-width: 310px;
+        background-color: white;
+        border-radius: 5px;
+    }
+    .principal{
+        max-width: 270px;
+        margin: auto;
+        border-radius: 5px;
+    }
+    .user{
+        width: 150px;
+    }
+    .pagina{
+        background-color: rgb(167, 211, 209);
+    }
+</style>
+<body class="pagina">
+    <main class="total">
+        <form action="" method="get">
+            <fieldset class="principal">
+                <legend>Dados Pessoais</legend>
+                <div>
+                    <label for="">Nome:</label>
+                    <input type="text" placeholder="Digite seu nome" class="user" required>
+                </div>
+                <br>
+                <div>
+                    <label for="">E-mail:</label>
+                    <input type="email" placeholder="Digite seu email" required>
+                </div> 
+                <br>
+                <div>
+                    <label for="">Selecione um assunto:</label>
+                    <select name="" id="" required>
+                        <option value="selecione">Selecione</option>
+                        <option value="jogo01">GTA V</option>
+                        <option value="jogo02">God of War Ragnarok</option>
+                        <option value="jogo03">Resident Evil 4 Remake</option>               
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="">Texto:</label>
+                    <textarea name="" id="" required></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Cancelar">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <br>
+    <button><a href="questao02.html">Questão 02-->></a></button>
+</body>
+</html>

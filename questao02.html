@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha de Emprego</title>
+</head>
+    <style>
+        .total{
+            border-style: ridge;
+            border-color: black;
+            border-width: 4px;
+            margin: auto;
+            max-width: 450px;
+            background-color: white;
+            border-radius: 5px;
+        }
+        .principal{
+            border-radius: 5px;
+        }
+        .principal2{
+            border-radius: 5px;
+        }
+    </style>
+<body>
+    <main class="total">
+        <form action="" method="get" required>
+            <fieldset class="principal">
+                <legend>Dados Pessoas</legend>
+                <div>
+                    <label for="">Nome:</label>
+                    <input type="text" placeholder="Digite seu nome" required>
+                </div>
+                <br>
+                <div>
+                    <label for="">Idade:</label>
+                    <input type="number" placeholder="Digite sua idade" required>
+                </div>
+                <br>
+                <div>
+                    <label for="">E-mail:</label>
+                    <input type="email" placeholder="Digite seu e-mail" required>
+                </div>
+                <br>
+                <div>
+                    <label for="">Senha:</label>
+                    <input type="password" placeholder="Digite uma senha forte" minlength="8" maxlength="12" required>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <label for="">Selecione Estado:</label>
+                    <select name="" id="" required>
+                        <option value="selecione">Selecione</option>
+                        <option value="emp01">CE</option>
+                        <option value="emp02">SP</option>
+                        <option value="emp03">RJ</option>
+                    </select>
+                </div>
+            </fieldset>
+        </form>
+        <form action="" method="get">
+            <fieldset class="principal2">
+                <legend>Dados Profissionais</legend>
+                <div>
+                    <label for="">Selecione as Tecnologias</label>
+                    <br>
+                    <input type="checkbox">
+                    <label for="">HTML</label>
+                    <input type="checkbox">
+                    <label for="">CSS</label>
+                    <input type="checkbox">
+                    <label for="">Javascrip</label>
+                    <input type="checkbox">
+                    <label for="">Typescrit</label>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <label for="">Selecione sua ocupação</label>
+                    <br>
+                    <input type="radio">
+                    <label for="">Front End</label>
+                    <input type="radio">
+                    <label for="">Back End</label>
+                    <input type="radio">
+                    <label for="">FullStack</label>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div>
+                    <label for="">Escreva sobre você</label>
+                    <br>
+                    <textarea name="" id="" cols="30" rows="5"></textarea>
+                </div>
+                <div>
+                    <label for="">Anexe seu currículo <button>Escolher arquivo</button> Nenhum arquivo escolhido</label>
+                </div>
+            </fieldset>
+            <br>
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Cancelar">
+            </div>
+        </form>
+    </main>
+    <br>
+    <button><a href="index.html"><<--Questão 1</a></button>
+</body>
+</html>
